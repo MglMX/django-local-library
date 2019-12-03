@@ -13,4 +13,5 @@
         <li><strong>Authors:</strong> {{ num_authors }}</li>
         <li><strong>Books that contain <em>the</em>:</strong> {{ num_books_with_the }}</li>
     </ul>
+    <p>You have visited this page {{ num_visits }} {% if num_visits == 1 %} time {% else %} times {% endif %}</p>
 {% endblock %}
